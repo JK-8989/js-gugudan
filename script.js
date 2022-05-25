@@ -35,14 +35,24 @@
 // gugudan(5)
 // document.write("----------" + '<br>')
 
+// let i = 2
+
+// while(i<10){
+
+// for (j = 1; j < 10; j++) {
+//     let result = i * j;
+//     document.write(`${i}*${j}=${result}` + "<br>");
+//   }
+//   document.write("<br>");
+//   i++
+// }
+
 let i = 2
 
-while(i<10){
-
-for (j = 1; j < 10; j++) {
-    let result = i * j;
-    document.write(`${i}*${j}=${result}` + "<br>");
+while (i < 10) {
+  for(let j = 2; j < 10; j++){
+    document.write(`${i} x ${j} = ${i*j}` + '<br>');
   }
-  document.write("<br>");
+  document.write('<br>')
   i++
 }
